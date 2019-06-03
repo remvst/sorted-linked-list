@@ -1,0 +1,20 @@
+{
+  "name": "@remvst/sorted-linked-list",
+  "version": "1.0.0",
+  "description": "Sorted Linked List",
+  "main": "src/sorted-linked-list.js",
+  "scripts": {
+    "test": "./node_modules/jasmine/bin/jasmine.js",
+    "coverage": "istanbul cover ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remvst/matrix": "^1.0.0"
+  },
+  "devDependencies": {
+    "chance": "^1.0.18",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.4.0"
+  }
+}
